@@ -52,10 +52,12 @@ public:
                 FRONT = FRONT + 1;
         }
     }
-};
-int main()
-{
-    std::cout << "Hello World!\n";
-}
 
+    void display() {
+        int FRONT_position = FRONT;
+        int REAR_position = REAR;
+
+
+    }
+};
 
