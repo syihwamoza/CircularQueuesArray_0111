@@ -6,7 +6,21 @@ class Queues {
     int queue_array[5];
 
 public:
+    Queues() {
+        FRONT = -1;
+        REAR = -1;
+    }
+    void insert() {
+        int num;
+        cout << " Enter a numver:";
+        cin >> num;
+        cout << endl;
 
+        if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) {
+            cout << "\nQueue overFlow\n";
+            return;
+        }
+    }
 };
 int main()
 {
